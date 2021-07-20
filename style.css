@@ -45,8 +45,37 @@ h3{
     padding-left: 5%;
 }
 
+#last-heading{
+    padding-left: 2%;
+}
+
+.flex3{
+    display: flex;
+    margin-top: 15px;
+}
+.sec3{
+    width: 40%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 7px;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
 footer p{
     text-align: center;
     color: gray;
     font-size: 11px;
+}
+.color{
+    color: rgb(35, 35, 122);
 }
